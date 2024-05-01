@@ -1,0 +1,39 @@
+{
+  "id": "MAP_GRAVEYARD",
+  "name": "Graveyard",
+  "layout": "LAYOUT_GRAVEYARD",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_METEOR_FALLS",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_TOWN2",
+      "offset": -21,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_GRAVEYARD2",
+      "offset": 0,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

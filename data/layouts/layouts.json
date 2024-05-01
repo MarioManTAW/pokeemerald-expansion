@@ -4410,6 +4410,186 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_TOWN1",
+      "name": "Town1_Layout",
+      "width": 35,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Pacifidlog",
+      "border_filepath": "data/layouts/Town1/border.bin",
+      "blockdata_filepath": "data/layouts/Town1/map.bin"
+    },
+    {
+      "id": "LAYOUT_OVERLOOK_CLIFF1",
+      "name": "OverlookCliff1_Layout",
+      "width": 61,
+      "height": 18,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/OverlookCliff1/border.bin",
+      "blockdata_filepath": "data/layouts/OverlookCliff1/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORMAL_FOREST1",
+      "name": "NormalForest1_Layout",
+      "width": 42,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/NormalForest1/border.bin",
+      "blockdata_filepath": "data/layouts/NormalForest1/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORMAL_FOREST2",
+      "name": "NormalForest2_Layout",
+      "width": 30,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Pacifidlog",
+      "border_filepath": "data/layouts/NormalForest2/border.bin",
+      "blockdata_filepath": "data/layouts/NormalForest2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OVERLOOK_CLIFF2",
+      "name": "OverlookCliff2_Layout",
+      "width": 50,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Pacifidlog",
+      "border_filepath": "data/layouts/OverlookCliff2/border.bin",
+      "blockdata_filepath": "data/layouts/OverlookCliff2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OVERLOOK_CLIFF3",
+      "name": "OverlookCliff3_Layout",
+      "width": 50,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Pacifidlog",
+      "border_filepath": "data/layouts/OverlookCliff3/border.bin",
+      "blockdata_filepath": "data/layouts/OverlookCliff3/map.bin"
+    },
+    {
+      "id": "LAYOUT_TOWN2",
+      "name": "Town2_Layout",
+      "width": 50,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/Town2/border.bin",
+      "blockdata_filepath": "data/layouts/Town2/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOREST_LAKE",
+      "name": "ForestLake_Layout",
+      "width": 100,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/ForestLake/border.bin",
+      "blockdata_filepath": "data/layouts/ForestLake/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOREST_HEART",
+      "name": "ForestHeart_Layout",
+      "width": 41,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/ForestHeart/border.bin",
+      "blockdata_filepath": "data/layouts/ForestHeart/map.bin"
+    },
+    {
+      "id": "LAYOUT_TOWN3PATH",
+      "name": "Town3Path_Layout",
+      "width": 60,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/Town3Path/border.bin",
+      "blockdata_filepath": "data/layouts/Town3Path/map.bin"
+    },
+    {
+      "id": "LAYOUT_TOWN3",
+      "name": "Town3_Layout",
+      "width": 45,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/Town3/border.bin",
+      "blockdata_filepath": "data/layouts/Town3/map.bin"
+    },
+    {
+      "id": "LAYOUT_BAY",
+      "name": "Bay_Layout",
+      "width": 70,
+      "height": 77,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Bay/border.bin",
+      "blockdata_filepath": "data/layouts/Bay/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_TUNNEL_ENTRANCE",
+      "name": "MountTunnelEntrance_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/MountTunnelEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/MountTunnelEntrance/map.bin"
+    },
+    {
+      "id": "LAYOUT_RIGHTOF_TUNNEL",
+      "name": "RightofTunnel_Layout",
+      "width": 45,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/RightofTunnel/border.bin",
+      "blockdata_filepath": "data/layouts/RightofTunnel/map.bin"
+    },
+    {
+      "id": "LAYOUT_AUBURN_THICKET",
+      "name": "AuburnThicket_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/AuburnThicket/border.bin",
+      "blockdata_filepath": "data/layouts/AuburnThicket/map.bin"
+    },
+    {
+      "id": "LAYOUT_TOWN4",
+      "name": "Town4_Layout",
+      "width": 50,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/Town4/border.bin",
+      "blockdata_filepath": "data/layouts/Town4/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRAVEYARD",
+      "name": "Graveyard_Layout",
+      "width": 20,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/Graveyard/border.bin",
+      "blockdata_filepath": "data/layouts/Graveyard/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRAVEYARD2",
+      "name": "Graveyard2_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/Graveyard2/border.bin",
+      "blockdata_filepath": "data/layouts/Graveyard2/map.bin"
     }
   ]
 }

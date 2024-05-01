@@ -1072,3 +1072,39 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/Town1/scripts.inc"
+
+	.include "data/maps/OverlookCliff1/scripts.inc"
+
+	.include "data/maps/NormalForest1/scripts.inc"
+
+	.include "data/maps/NormalForest2/scripts.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"
+
+	.include "data/maps/OverlookCliff3/scripts.inc"
+
+	.include "data/maps/Town2/scripts.inc"
+
+	.include "data/maps/ForestLake/scripts.inc"
+
+	.include "data/maps/ForestHeart/scripts.inc"
+
+	.include "data/maps/Town3Path/scripts.inc"
+
+	.include "data/maps/Town3/scripts.inc"
+
+	.include "data/maps/Bay/scripts.inc"
+
+	.include "data/maps/MountTunnelEntrance/scripts.inc"
+
+	.include "data/maps/RightofTunnel/scripts.inc"
+
+	.include "data/maps/AuburnThicket/scripts.inc"
+
+	.include "data/maps/Town4/scripts.inc"
+
+	.include "data/maps/Graveyard/scripts.inc"
+
+	.include "data/maps/Graveyard2/scripts.inc"
