@@ -1,0 +1,23 @@
+Map Notes 1
+
+Assets to be moved
+
+(Rustboro Tileset) Beach Hut and Devon Co building moved to Slateport Tileset in place of all contest hall assets and if necessary the oceanic museum. 
+
+(Slateport Tileset) Abandoned ship moved to Fallarbor tileset in place of contest hall.
+
+(Mossdeep pallete) weird small grassy terrain trees moved to general tileset in place of gym building.
+
+Assets to be altered
+
+Make ledge tile with dark grass, --- texture, and pavement texture.
+
+Change Slateport warehouse tiles to have a sandy background. (Currently locked to grass)
+
+
+
+Assets to be made
+
+Pirate ship (Inside tiles as well)
+Berry Trees
+Sideways stairs
