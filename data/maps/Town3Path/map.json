@@ -14,14 +14,19 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
+      "map": "MAP_INBETWEEN3PATHANDCLIFFS",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
       "map": "MAP_TOWN3",
       "offset": -9,
       "direction": "left"
     },
     {
-      "map": "MAP_INBETWEEN3PATHANDCLIFFS",
-      "offset": 0,
-      "direction": "down"
+      "map": "MAP_MOUNT_TUNNEL_ENTRANCE",
+      "offset": -36,
+      "direction": "left"
     }
   ],
   "object_events": [

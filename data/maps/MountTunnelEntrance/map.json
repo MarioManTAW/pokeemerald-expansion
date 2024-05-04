@@ -20,8 +20,13 @@
     },
     {
       "map": "MAP_TOWN3",
-      "offset": -14,
+      "offset": -9,
       "direction": "down"
+    },
+    {
+      "map": "MAP_TOWN3PATH",
+      "offset": 36,
+      "direction": "right"
     }
   ],
   "object_events": [
