@@ -77,7 +77,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 18,
+      "x": 14,
       "y": 1,
       "elevation": 0,
       "item": "ITEM_NONE",
