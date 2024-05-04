@@ -34,24 +34,39 @@
   ],
   "warp_events": [
     {
-      "x": 26,
+      "x": 49,
       "y": 11,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST2",
       "dest_warp_id": "0"
     },
     {
-      "x": 26,
+      "x": 49,
       "y": 12,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST2",
-      "dest_warp_id": "0"
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 48,
+      "y": 6,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 47,
+      "y": 6,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    }
   ]
 }

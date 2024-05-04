@@ -1108,3 +1108,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Graveyard/scripts.inc"
 
 	.include "data/maps/Graveyard2/scripts.inc"
+
+	.include "data/maps/Inbetween3pathandcliffs/scripts.inc"

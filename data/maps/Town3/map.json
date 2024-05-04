@@ -12,12 +12,51 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "map": "MAP_TOWN3PATH",
+      "offset": 9,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_BAY",
+      "offset": -8,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_OVERLOOK_CLIFF3",
+      "offset": 66,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_MOUNT_TUNNEL_ENTRANCE",
+      "offset": 14,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_INBETWEEN3PATHANDCLIFFS",
+      "offset": 39,
+      "direction": "right"
+    }
+  ],
   "object_events": [
 
   ],
   "warp_events": [
-
+    {
+      "x": 20,
+      "y": 31,
+      "elevation": 0,
+      "dest_map": "MAP_TOWN3",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_TOWN3",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

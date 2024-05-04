@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_NORMAL_FOREST2",
-      "offset": 11,
+      "offset": 10,
       "direction": "left"
     },
     {
@@ -65,7 +65,7 @@
       "y": 25,
       "elevation": 0,
       "dest_map": "MAP_TOWN2",
-      "dest_warp_id": "0"
+      "dest_warp_id": "1"
     },
     {
       "x": 40,
@@ -75,25 +75,32 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 41,
+      "x": 39,
       "y": 3,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST1",
       "dest_warp_id": "0"
     },
     {
-      "x": 12,
-      "y": 1,
+      "x": 21,
+      "y": 29,
       "elevation": 0,
-      "dest_map": "MAP_NORMAL_FOREST1",
+      "dest_map": "MAP_TOWN1",
       "dest_warp_id": "0"
     },
     {
-      "x": 11,
-      "y": 1,
+      "x": 22,
+      "y": 29,
       "elevation": 0,
-      "dest_map": "MAP_NORMAL_FOREST1",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_TOWN1",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 23,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_TOWN1",
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [
@@ -102,8 +109,32 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 30,
-      "y": 29,
+      "x": 38,
+      "y": 28,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 4,
+      "y": 1,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 2,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 3,
+      "y": 5,
       "elevation": 0,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"

@@ -27,6 +27,11 @@
       "map": "MAP_OVERLOOK_CLIFF1",
       "offset": 60,
       "direction": "right"
+    },
+    {
+      "map": "MAP_TOWN3",
+      "offset": 8,
+      "direction": "up"
     }
   ],
   "object_events": [

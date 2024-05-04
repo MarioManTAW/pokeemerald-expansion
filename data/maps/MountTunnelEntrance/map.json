@@ -17,6 +17,11 @@
       "map": "MAP_RIGHTOF_TUNNEL",
       "offset": -13,
       "direction": "right"
+    },
+    {
+      "map": "MAP_TOWN3",
+      "offset": -14,
+      "direction": "down"
     }
   ],
   "object_events": [
