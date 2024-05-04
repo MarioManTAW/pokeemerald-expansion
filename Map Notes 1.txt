@@ -1,4 +1,4 @@
-Map Notes 1
+Map Notes 
 
 Assets to be moved
 
@@ -15,3 +15,17 @@ Assets to be made
 Pirate ship (Inside tiles as well)
 Berry Trees
 Sideways stairs
+
+General
+
+Add agreed Pokemon to Normal Forest 1 and 2
+
+Design teams for grunts in Overlook Cliff 1, Normal forest 2, Town 2. (All accessable before beating bug guy)[check events to see how many]
+
+Figure out how to do scripted events (for example when the aqua grunts all march into the oceanic museum)
+
+  
+
+
+
+
