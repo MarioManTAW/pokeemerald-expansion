@@ -4,10 +4,13 @@ Assets to be moved
 
 (Rustboro Tileset) Beach Hut and Devon Co building moved to Slateport Tileset in place of all contest hall assets and if necessary the oceanic museum. 
 
+Add encounter sand from mauvile tileset to slateport tileset
+
 Assets to be altered
 
 Make ledge tile with dark grass, --- texture, and pavement texture.
 
+Change some of mauville tileset flowers to be dark grass
 
 
 Assets to be made
@@ -18,12 +21,11 @@ Sideways stairs
 
 General
 
-Add agreed Pokemon to Normal Forest 1 and 2
-
 Design teams for grunts in Overlook Cliff 1, Normal forest 2, Town 2. (All accessable before beating bug guy)[check events to see how many]
 
 Figure out how to do scripted events (for example when the aqua grunts all march into the oceanic museum)
 
+See if day night cycle is possible visually
   
 
 

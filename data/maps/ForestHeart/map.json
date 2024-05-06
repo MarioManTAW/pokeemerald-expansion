@@ -23,7 +23,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 21,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_FOREST_HEART",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
@@ -33,6 +39,14 @@
       "type": "hidden_item",
       "x": 36,
       "y": 1,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 39,
+      "y": 35,
       "elevation": 0,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"

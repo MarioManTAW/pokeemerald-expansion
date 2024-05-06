@@ -14,19 +14,19 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
+      "map": "MAP_OVERLOOK_CLIFF3",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
       "map": "MAP_TOWN3PATH",
       "offset": 0,
       "direction": "up"
     },
     {
       "map": "MAP_TOWN3",
-      "offset": -39,
+      "offset": -48,
       "direction": "left"
-    },
-    {
-      "map": "MAP_OVERLOOK_CLIFF3",
-      "offset": 0,
-      "direction": "down"
     }
   ],
   "object_events": [
@@ -39,6 +39,29 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 32,
+      "y": 5,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 29,
+      "y": 3,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 2,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    }
   ]
 }

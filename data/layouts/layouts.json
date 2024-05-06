@@ -4567,7 +4567,7 @@
       "width": 50,
       "height": 40,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Fallarbor",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Town4/border.bin",
       "blockdata_filepath": "data/layouts/Town4/map.bin"
     },
@@ -4595,11 +4595,21 @@
       "id": "LAYOUT_INBETWEEN3PATHANDCLIFFS",
       "name": "Inbetween3pathandcliffs_Layout",
       "width": 50,
-      "height": 27,
+      "height": 18,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Inbetween3pathandcliffs/border.bin",
       "blockdata_filepath": "data/layouts/Inbetween3pathandcliffs/map.bin"
+    },
+    {
+      "id": "LAYOUT_MCHOUSE",
+      "name": "MCHouse_Layout",
+      "width": 10,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/MCHouse/border.bin",
+      "blockdata_filepath": "data/layouts/MCHouse/map.bin"
     }
   ]
 }
