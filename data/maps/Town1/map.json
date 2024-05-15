@@ -17,6 +17,11 @@
       "map": "MAP_OVERLOOK_CLIFF1",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_OVERLOOK_CLIFF2",
+      "offset": -61,
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -51,21 +56,21 @@
     {
       "x": 11,
       "y": 0,
-      "elevation": 0,
+      "elevation": 3,
       "dest_map": "MAP_NORMAL_FOREST1",
       "dest_warp_id": "4"
     },
     {
       "x": 12,
       "y": 0,
-      "elevation": 0,
+      "elevation": 3,
       "dest_map": "MAP_NORMAL_FOREST1",
       "dest_warp_id": "5"
     },
     {
       "x": 13,
       "y": 0,
-      "elevation": 0,
+      "elevation": 3,
       "dest_map": "MAP_NORMAL_FOREST1",
       "dest_warp_id": "6"
     },

@@ -27,6 +27,11 @@
       "map": "MAP_BAY",
       "offset": -40,
       "direction": "left"
+    },
+    {
+      "map": "MAP_TOWN1",
+      "offset": 61,
+      "direction": "down"
     }
   ],
   "object_events": [

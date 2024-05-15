@@ -30,8 +30,13 @@
     },
     {
       "map": "MAP_TOWN3",
-      "offset": 8,
+      "offset": 1,
       "direction": "up"
+    },
+    {
+      "map": "MAP_INBETWEEN3PATHANDCLIFFS",
+      "offset": -18,
+      "direction": "right"
     }
   ],
   "object_events": [

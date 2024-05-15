@@ -4414,8 +4414,8 @@
     {
       "id": "LAYOUT_TOWN1",
       "name": "Town1_Layout",
-      "width": 35,
-      "height": 20,
+      "width": 41,
+      "height": 22,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Town1/border.bin",
@@ -4425,9 +4425,9 @@
       "id": "LAYOUT_OVERLOOK_CLIFF1",
       "name": "OverlookCliff1_Layout",
       "width": 61,
-      "height": 18,
+      "height": 22,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lilycove",
+      "secondary_tileset": "gTileset_BattleArena",
       "border_filepath": "data/layouts/OverlookCliff1/border.bin",
       "blockdata_filepath": "data/layouts/OverlookCliff1/map.bin"
     },
@@ -4454,7 +4454,7 @@
     {
       "id": "LAYOUT_OVERLOOK_CLIFF2",
       "name": "OverlookCliff2_Layout",
-      "width": 50,
+      "width": 57,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
@@ -4514,7 +4514,7 @@
     {
       "id": "LAYOUT_TOWN3",
       "name": "Town3_Layout",
-      "width": 50,
+      "width": 57,
       "height": 70,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Slateport",
@@ -4534,7 +4534,7 @@
     {
       "id": "LAYOUT_MOUNT_TUNNEL_ENTRANCE",
       "name": "MountTunnelEntrance_Layout",
-      "width": 41,
+      "width": 48,
       "height": 30,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fallarbor",
@@ -4567,7 +4567,7 @@
       "width": 50,
       "height": 40,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Town4/border.bin",
       "blockdata_filepath": "data/layouts/Town4/map.bin"
     },

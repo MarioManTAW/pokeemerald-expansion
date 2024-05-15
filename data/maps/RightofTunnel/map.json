@@ -23,7 +23,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 44,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_RIGHTOF_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 44,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_RIGHTOF_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 44,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_RIGHTOF_TUNNEL",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 44,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_RIGHTOF_TUNNEL",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
