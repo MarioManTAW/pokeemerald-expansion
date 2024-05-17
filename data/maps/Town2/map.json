@@ -15,14 +15,14 @@
   "connections": [
     {
       "map": "MAP_GRAVEYARD",
-      "offset": 21,
+      "offset": 3,
       "direction": "up"
     }
   ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 45,
+      "x": 51,
       "y": 18,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_RUN_IN_PLACE_DOWN",
@@ -35,7 +35,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
-      "x": 42,
+      "x": 48,
       "y": 22,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
@@ -49,63 +49,63 @@
   ],
   "warp_events": [
     {
-      "x": 0,
+      "x": 6,
       "y": 24,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST1",
       "dest_warp_id": "0"
     },
     {
-      "x": 0,
+      "x": 6,
       "y": 23,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST1",
       "dest_warp_id": "1"
     },
     {
-      "x": 12,
+      "x": 15,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_TOWN2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 28,
       "y": 21,
       "elevation": 0,
       "dest_map": "MAP_TOWN2",
       "dest_warp_id": "0"
     },
     {
-      "x": 22,
-      "y": 21,
-      "elevation": 0,
-      "dest_map": "MAP_TOWN2",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 17,
+      "x": 23,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_TOWN2",
       "dest_warp_id": "0"
     },
     {
-      "x": 34,
+      "x": 40,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_TOWN2",
       "dest_warp_id": "0"
     },
     {
-      "x": 26,
+      "x": 32,
       "y": 12,
       "elevation": 0,
       "dest_map": "MAP_TOWN2",
       "dest_warp_id": "0"
     },
     {
-      "x": 34,
+      "x": 40,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_TOWN2",
       "dest_warp_id": "0"
     },
     {
-      "x": 7,
+      "x": 13,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_TOWN2",
@@ -118,7 +118,7 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 35,
+      "x": 41,
       "y": 1,
       "elevation": 0,
       "item": "ITEM_NONE",
@@ -126,7 +126,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 14,
+      "x": 24,
       "y": 1,
       "elevation": 0,
       "item": "ITEM_NONE",
@@ -134,7 +134,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 1,
+      "x": 7,
       "y": 14,
       "elevation": 0,
       "item": "ITEM_NONE",

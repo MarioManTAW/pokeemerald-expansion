@@ -13,7 +13,7 @@ Add stairs to ship in fallarbor tileset
 
 Assets to be altered
 
-Make ledge tile with dark grass, --- texture, and pavement texture.
+Make ledge tile with dark grass and ... texture.
 
 Change some of mauville tileset flowers to be dark grass
 

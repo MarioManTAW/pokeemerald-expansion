@@ -15,19 +15,19 @@
   "connections": [
     {
       "map": "MAP_TOWN2",
-      "offset": -21,
+      "offset": -3,
       "direction": "down"
     },
     {
       "map": "MAP_GRAVEYARD2",
-      "offset": 0,
+      "offset": 17,
       "direction": "up"
     }
   ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
-      "x": 14,
+      "x": 29,
       "y": 1,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -48,7 +48,7 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 5,
+      "x": 26,
       "y": 3,
       "elevation": 0,
       "item": "ITEM_NONE",
@@ -56,8 +56,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 17,
-      "y": 7,
+      "x": 38,
+      "y": 11,
       "elevation": 0,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"

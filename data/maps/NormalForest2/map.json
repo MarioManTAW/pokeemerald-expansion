@@ -22,7 +22,7 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 8,
+      "x": 15,
       "y": 17,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -36,28 +36,28 @@
   ],
   "warp_events": [
     {
-      "x": 0,
+      "x": 6,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_OVERLOOK_CLIFF2",
       "dest_warp_id": "0"
     },
     {
-      "x": 0,
+      "x": 6,
       "y": 3,
       "elevation": 0,
       "dest_map": "MAP_OVERLOOK_CLIFF2",
       "dest_warp_id": "1"
     },
     {
-      "x": 3,
+      "x": 10,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST2",
       "dest_warp_id": "0"
     },
     {
-      "x": 2,
+      "x": 9,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST2",
@@ -70,7 +70,7 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 28,
+      "x": 35,
       "y": 17,
       "elevation": 0,
       "item": "ITEM_NONE",
@@ -78,7 +78,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 27,
+      "x": 34,
       "y": 2,
       "elevation": 0,
       "item": "ITEM_NONE",
@@ -86,7 +86,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 1,
+      "x": 8,
       "y": 14,
       "elevation": 0,
       "item": "ITEM_NONE",
