@@ -4427,7 +4427,7 @@
       "width": 61,
       "height": 22,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_BattleArena",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/OverlookCliff1/border.bin",
       "blockdata_filepath": "data/layouts/OverlookCliff1/map.bin"
     },
