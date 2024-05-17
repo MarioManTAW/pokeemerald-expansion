@@ -1081,7 +1081,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/NormalForest2/scripts.inc"
 
-	.include "data/maps/NewMap1/scripts.inc"
+	.include "data/maps/OverlookCliff2/scripts.inc"
 
 	.include "data/maps/OverlookCliff3/scripts.inc"
 

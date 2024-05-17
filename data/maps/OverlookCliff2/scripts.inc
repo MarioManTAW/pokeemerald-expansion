@@ -1,2 +1,2 @@
-NewMap1_MapScripts::
+OverlookCliff2_MapScripts::
 	.byte 0
