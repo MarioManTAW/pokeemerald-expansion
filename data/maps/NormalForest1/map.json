@@ -55,28 +55,28 @@
   "warp_events": [
     {
       "x": 41,
-      "y": 26,
+      "y": 28,
       "elevation": 0,
       "dest_map": "MAP_TOWN2",
       "dest_warp_id": "0"
     },
     {
       "x": 41,
-      "y": 25,
+      "y": 27,
       "elevation": 0,
       "dest_map": "MAP_TOWN2",
       "dest_warp_id": "1"
     },
     {
-      "x": 40,
-      "y": 3,
+      "x": 39,
+      "y": 5,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST1",
       "dest_warp_id": "0"
     },
     {
-      "x": 39,
-      "y": 3,
+      "x": 40,
+      "y": 5,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST1",
       "dest_warp_id": "0"
@@ -104,14 +104,14 @@
     },
     {
       "x": 12,
-      "y": 1,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST1",
       "dest_warp_id": "0"
     },
     {
       "x": 11,
-      "y": 1,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_FOREST1",
       "dest_warp_id": "0"
@@ -124,7 +124,7 @@
     {
       "type": "hidden_item",
       "x": 38,
-      "y": 28,
+      "y": 30,
       "elevation": 0,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"
@@ -132,7 +132,7 @@
     {
       "type": "hidden_item",
       "x": 4,
-      "y": 1,
+      "y": 3,
       "elevation": 0,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"
@@ -148,7 +148,7 @@
     {
       "type": "hidden_item",
       "x": 3,
-      "y": 5,
+      "y": 7,
       "elevation": 0,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"
