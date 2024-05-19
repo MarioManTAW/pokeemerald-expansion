@@ -24,13 +24,13 @@
       "direction": "up"
     },
     {
-      "map": "MAP_TOWN3",
-      "offset": -48,
+      "map": "MAP_BAY",
+      "offset": 18,
       "direction": "left"
     },
     {
-      "map": "MAP_BAY",
-      "offset": 18,
+      "map": "MAP_TOWN3",
+      "offset": -52,
       "direction": "left"
     }
   ],

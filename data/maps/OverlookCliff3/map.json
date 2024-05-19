@@ -24,14 +24,14 @@
       "direction": "left"
     },
     {
-      "map": "MAP_TOWN3",
-      "offset": -66,
-      "direction": "left"
-    },
-    {
       "map": "MAP_INBETWEEN3PATHANDCLIFFS",
       "offset": 0,
       "direction": "up"
+    },
+    {
+      "map": "MAP_TOWN3",
+      "offset": -70,
+      "direction": "left"
     }
   ],
   "object_events": [

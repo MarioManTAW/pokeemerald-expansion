@@ -37,14 +37,14 @@
   "warp_events": [
     {
       "x": 6,
-      "y": 2,
+      "y": 16,
       "elevation": 0,
       "dest_map": "MAP_OVERLOOK_CLIFF2",
       "dest_warp_id": "0"
     },
     {
       "x": 6,
-      "y": 3,
+      "y": 17,
       "elevation": 0,
       "dest_map": "MAP_OVERLOOK_CLIFF2",
       "dest_warp_id": "1"
@@ -87,7 +87,7 @@
     {
       "type": "hidden_item",
       "x": 8,
-      "y": 14,
+      "y": 18,
       "elevation": 0,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"

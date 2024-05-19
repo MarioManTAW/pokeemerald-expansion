@@ -17,7 +17,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 4,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_TOWN1",
+      "dest_warp_id": "10"
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_TOWN1",
+      "dest_warp_id": "10"
+    }
   ],
   "coord_events": [
 

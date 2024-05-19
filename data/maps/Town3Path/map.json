@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_TOWN3",
-      "offset": -18,
+      "offset": -22,
       "direction": "left"
     },
     {

@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_TOWN1",
-      "offset": -5,
+      "offset": -1,
       "direction": "right"
     },
     {
@@ -33,7 +33,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
       "x": 40,
-      "y": 10,
+      "y": 15,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -54,7 +54,7 @@
     {
       "type": "hidden_item",
       "x": 44,
-      "y": 2,
+      "y": 5,
       "elevation": 0,
       "item": "ITEM_CHERI_BERRY",
       "flag": "FLAG_TEMP_1"
