@@ -4610,6 +4610,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/MCHouse/border.bin",
       "blockdata_filepath": "data/layouts/MCHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNTAIN_ASCENT",
+      "name": "MountainAscent_Layout",
+      "width": 48,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/MountainAscent/border.bin",
+      "blockdata_filepath": "data/layouts/MountainAscent/map.bin"
     }
   ]
 }

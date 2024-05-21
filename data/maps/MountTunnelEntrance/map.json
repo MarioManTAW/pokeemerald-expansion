@@ -27,6 +27,11 @@
       "map": "MAP_TOWN3PATH",
       "offset": 36,
       "direction": "right"
+    },
+    {
+      "map": "MAP_MOUNTAIN_ASCENT",
+      "offset": 0,
+      "direction": "up"
     }
   ],
   "object_events": [

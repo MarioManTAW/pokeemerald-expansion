@@ -1112,3 +1112,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Inbetween3pathandcliffs/scripts.inc"
 
 	.include "data/maps/MCHouse/scripts.inc"
+
+	.include "data/maps/MountainAscent/scripts.inc"
