@@ -19,19 +19,14 @@
       "direction": "right"
     },
     {
-      "map": "MAP_TOWN3",
-      "offset": -9,
-      "direction": "down"
-    },
-    {
-      "map": "MAP_TOWN3PATH",
-      "offset": 36,
-      "direction": "right"
-    },
-    {
       "map": "MAP_MOUNTAIN_ASCENT",
       "offset": 0,
       "direction": "up"
+    },
+    {
+      "map": "MAP_TOWN3",
+      "offset": -9,
+      "direction": "down"
     }
   ],
   "object_events": [

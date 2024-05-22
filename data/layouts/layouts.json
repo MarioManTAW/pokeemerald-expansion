@@ -4620,6 +4620,16 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/MountainAscent/border.bin",
       "blockdata_filepath": "data/layouts/MountainAscent/map.bin"
+    },
+    {
+      "id": "LAYOUT_BUG_MUSEUM",
+      "name": "BugMuseum_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/BugMuseum/border.bin",
+      "blockdata_filepath": "data/layouts/BugMuseum/map.bin"
     }
   ]
 }

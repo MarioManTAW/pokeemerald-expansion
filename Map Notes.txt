@@ -19,6 +19,10 @@ Change some of mauville tileset flowers to be dark grass
 
 Make dark grass assets of secret base tree, normal grass, small thin trees, and normal trees
 
+Should add wear and tear to houses eventually
+
+Buildings in Town 3 should have smeargle grafiti
+
 Assets to be made
 
 Pirate ship (Inside tiles as well)
@@ -34,6 +38,14 @@ Figure out how to do scripted events (for example when the aqua grunts all march
 See if day night cycle is possible visually
 
 Add east and west arrow warps for water
+
+See if random weather is possible and if I need to copy maps for it
+
+See if possible for trainers to drop berries instead of money
+
+Figure out how spawn levels work (i.e. how to set levels for the pokemon in the grass)
+
+Ask me about "Legendaries"
   
 
 

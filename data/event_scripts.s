@@ -1114,3 +1114,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MCHouse/scripts.inc"
 
 	.include "data/maps/MountainAscent/scripts.inc"
+
+	.include "data/maps/BugMuseum/scripts.inc"

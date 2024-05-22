@@ -19,11 +19,6 @@
       "direction": "left"
     },
     {
-      "map": "MAP_MOUNT_TUNNEL_ENTRANCE",
-      "offset": -36,
-      "direction": "left"
-    },
-    {
       "map": "MAP_INBETWEEN3PATHANDCLIFFS",
       "offset": 0,
       "direction": "down"
