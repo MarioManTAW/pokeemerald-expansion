@@ -50,6 +50,7 @@
 #include "secret_base.h"
 #include "sound.h"
 #include "start_menu.h"
+#include "starter_choose.h"
 #include "task.h"
 #include "tileset_anims.h"
 #include "time_events.h"
@@ -1574,6 +1575,7 @@ void CB2_NewGame(void)
     ResetSafariZoneFlag_();
     NewGameInitData();
     ResetInitialPlayerAvatarState();
+    GiveForcedStarter(gSaveBlock2Ptr->playerGender);
     PlayTimeCounter_Start();
     ScriptContext_Init();
     UnlockPlayerFieldControls();

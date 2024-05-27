@@ -11,6 +11,7 @@
 #include "pokedex.h"
 #include "pokemon.h"
 #include "scanline_effect.h"
+#include "script_pokemon_util.h"
 #include "sound.h"
 #include "sprite.h"
 #include "starter_choose.h"
@@ -112,8 +113,8 @@ static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
 
 static const u16 sStarterMon[STARTER_MON_COUNT] =
 {
-    SPECIES_TREECKO,
-    SPECIES_TORCHIC,
+    SPECIES_NIDORAN_M,
+    SPECIES_NIDORAN_F,
     SPECIES_MUDKIP,
 };
 
@@ -370,6 +371,49 @@ static void VblankCB_StarterChoose(void)
 // Data for sSpriteTemplate_Pokeball
 #define sTaskId data[0]
 #define sBallId data[1]
+
+void GiveMaleStarter(void)
+{
+    u16 starterMon;
+
+    *GetVarPointer(VAR_STARTER_MON) = 0;
+    starterMon = GetStarterPokemon(0);
+    ScriptGiveMon(starterMon, 5, ITEM_NONE);
+}
+
+void GiveFemaleStarter(void)
+{
+    u16 starterMon;
+
+    *GetVarPointer(VAR_STARTER_MON) = 1;
+    starterMon = GetStarterPokemon(1);
+    ScriptGiveMon(starterMon, 5, ITEM_NONE);
+}
+
+void GiveInvalidStarter(void)
+{
+    u16 starterMon;
+
+    *GetVarPointer(VAR_STARTER_MON) = 2;
+    starterMon = GetStarterPokemon(2);
+    ScriptGiveMon(starterMon, 5, ITEM_NONE);
+}
+
+void GiveForcedStarter(u16 gender)
+{
+    switch (gender)
+    {
+        case MALE:
+            GiveMaleStarter();
+            break;
+        case FEMALE:
+            GiveFemaleStarter();
+            break;
+        default:
+            GiveInvalidStarter();
+            break;
+    }
+}
 
 void CB2_ChooseStarter(void)
 {

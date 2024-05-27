@@ -9,5 +9,9 @@ extern const u32 gPokeballSelection_Gfx[];
 
 u16 GetStarterPokemon(u16 chosenStarterId);
 void CB2_ChooseStarter(void);
+void GiveMaleStarter(void);
+void GiveFemaleStarter(void);
+void GiveInvalidStarter(void);
+void GiveForcedStarter(u16 gender);
 
 #endif // GUARD_STARTER_CHOOSE_H
