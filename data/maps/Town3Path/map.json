@@ -22,6 +22,11 @@
       "map": "MAP_INBETWEEN3PATHANDCLIFFS",
       "offset": 0,
       "direction": "down"
+    },
+    {
+      "map": "MAP_ABOVE3CAVE",
+      "offset": 0,
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -41,13 +46,6 @@
       "elevation": 0,
       "dest_map": "MAP_FOREST_LAKE",
       "dest_warp_id": "3"
-    },
-    {
-      "x": 28,
-      "y": 1,
-      "elevation": 0,
-      "dest_map": "MAP_TOWN3PATH",
-      "dest_warp_id": "0"
     },
     {
       "x": 9,

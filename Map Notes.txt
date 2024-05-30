@@ -46,6 +46,8 @@ See if possible for trainers to drop berries instead of money
 Figure out how spawn levels work (i.e. how to set levels for the pokemon in the grass)
 
 Ask me about "Legendaries"
+
+Ask me about nuzlocke mode features.
   
 
 

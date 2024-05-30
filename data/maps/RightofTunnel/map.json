@@ -15,12 +15,22 @@
   "connections": [
     {
       "map": "MAP_MOUNT_TUNNEL_ENTRANCE",
-      "offset": 13,
+      "offset": 27,
       "direction": "left"
     },
     {
+      "map": "MAP_ABOVE3CAVE",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_TOWN3",
+      "offset": -69,
+      "direction": "down"
+    },
+    {
       "map": "MAP_MOUNTAIN_ASCENT",
-      "offset": -36,
+      "offset": -23,
       "direction": "left"
     }
   ],
@@ -29,29 +39,29 @@
   ],
   "warp_events": [
     {
-      "x": 44,
-      "y": 8,
+      "x": 43,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_RIGHTOF_TUNNEL",
       "dest_warp_id": "0"
     },
     {
-      "x": 44,
-      "y": 9,
+      "x": 43,
+      "y": 16,
       "elevation": 0,
       "dest_map": "MAP_RIGHTOF_TUNNEL",
       "dest_warp_id": "0"
     },
     {
-      "x": 44,
-      "y": 10,
+      "x": 43,
+      "y": 17,
       "elevation": 0,
       "dest_map": "MAP_RIGHTOF_TUNNEL",
       "dest_warp_id": "0"
     },
     {
-      "x": 44,
-      "y": 11,
+      "x": 43,
+      "y": 18,
       "elevation": 0,
       "dest_map": "MAP_RIGHTOF_TUNNEL",
       "dest_warp_id": "0"

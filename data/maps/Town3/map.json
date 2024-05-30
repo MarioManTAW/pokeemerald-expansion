@@ -35,7 +35,17 @@
     },
     {
       "map": "MAP_MOUNT_TUNNEL_ENTRANCE",
-      "offset": 9,
+      "offset": 10,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_ABOVE3CAVE",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_RIGHTOF_TUNNEL",
+      "offset": 69,
       "direction": "up"
     }
   ],
@@ -44,14 +54,14 @@
   ],
   "warp_events": [
     {
-      "x": 27,
+      "x": 29,
       "y": 35,
       "elevation": 0,
       "dest_map": "MAP_TOWN3",
       "dest_warp_id": "0"
     },
     {
-      "x": 27,
+      "x": 29,
       "y": 36,
       "elevation": 0,
       "dest_map": "MAP_TOWN3",

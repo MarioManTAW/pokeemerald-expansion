@@ -1,27 +1,37 @@
 {
-  "id": "MAP_MOUNTAIN_ASCENT",
-  "name": "MountainAscent",
-  "layout": "LAYOUT_MOUNTAIN_ASCENT",
+  "id": "MAP_ABOVE3CAVE",
+  "name": "Above3cave",
+  "layout": "LAYOUT_ABOVE3CAVE",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ABANDONED_SHIP",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_ROUTE",
-  "allow_cycling": true,
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": true,
+  "allow_running": false,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_MOUNT_TUNNEL_ENTRANCE",
+      "map": "MAP_TOWN3PATH",
       "offset": 0,
       "direction": "down"
     },
     {
+      "map": "MAP_TOWN3",
+      "offset": 0,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_MOUNT_TUNNEL_ENTRANCE",
+      "offset": -59,
+      "direction": "up"
+    },
+    {
       "map": "MAP_RIGHTOF_TUNNEL",
-      "offset": 23,
-      "direction": "right"
+      "offset": 0,
+      "direction": "up"
     }
   ],
   "object_events": [
