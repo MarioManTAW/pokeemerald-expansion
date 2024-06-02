@@ -4444,7 +4444,7 @@
     {
       "id": "LAYOUT_NORMAL_FOREST2",
       "name": "NormalForest2_Layout",
-      "width": 37,
+      "width": 38,
       "height": 26,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
@@ -4575,7 +4575,7 @@
       "id": "LAYOUT_GRAVEYARD",
       "name": "Graveyard_Layout",
       "width": 58,
-      "height": 12,
+      "height": 14,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/Graveyard/border.bin",
@@ -4594,7 +4594,7 @@
     {
       "id": "LAYOUT_INBETWEEN3PATHANDCLIFFS",
       "name": "Inbetween3pathandcliffs_Layout",
-      "width": 50,
+      "width": 57,
       "height": 18,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -4614,7 +4614,7 @@
     {
       "id": "LAYOUT_MOUNTAIN_ASCENT",
       "name": "MountainAscent_Layout",
-      "width": 48,
+      "width": 58,
       "height": 50,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fallarbor",

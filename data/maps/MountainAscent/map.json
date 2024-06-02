@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_MOUNT_TUNNEL_ENTRANCE",
-      "offset": 0,
+      "offset": -1,
       "direction": "down"
     },
     {

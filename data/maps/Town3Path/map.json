@@ -48,8 +48,8 @@
       "dest_warp_id": "3"
     },
     {
-      "x": 9,
-      "y": 27,
+      "x": 10,
+      "y": 28,
       "elevation": 0,
       "dest_map": "MAP_TOWN3PATH",
       "dest_warp_id": "0"

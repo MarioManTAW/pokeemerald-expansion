@@ -10,6 +10,8 @@ Add encounter sand from mauvile tileset to slateport tileset
 
 Add stairs to ship in fallarbor tileset
 
+Add white glass display case from facility tileset to generic building tileset
+
 
 Assets to be altered
 
