@@ -35,7 +35,7 @@
     },
     {
       "map": "MAP_MOUNT_TUNNEL_ENTRANCE",
-      "offset": 10,
+      "offset": 9,
       "direction": "up"
     },
     {

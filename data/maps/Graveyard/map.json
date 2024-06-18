@@ -57,7 +57,7 @@
     {
       "type": "hidden_item",
       "x": 38,
-      "y": 11,
+      "y": 15,
       "elevation": 0,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"

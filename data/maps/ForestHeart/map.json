@@ -39,31 +39,45 @@
     },
     {
       "x": 0,
-      "y": 2,
+      "y": 1,
       "elevation": 0,
       "dest_map": "MAP_FOREST_HEART",
       "dest_warp_id": "0"
     },
     {
       "x": 0,
-      "y": 3,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_FOREST_HEART",
       "dest_warp_id": "1"
     },
     {
       "x": 0,
-      "y": 4,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_FOREST_HEART",
       "dest_warp_id": "2"
     },
     {
       "x": 0,
-      "y": 5,
+      "y": 4,
       "elevation": 0,
       "dest_map": "MAP_FOREST_HEART",
       "dest_warp_id": "3"
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_FOREST_HEART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_FOREST_HEART",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

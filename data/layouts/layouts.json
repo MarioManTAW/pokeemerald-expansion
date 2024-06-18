@@ -4534,7 +4534,7 @@
     {
       "id": "LAYOUT_MOUNT_TUNNEL_ENTRANCE",
       "name": "MountTunnelEntrance_Layout",
-      "width": 59,
+      "width": 60,
       "height": 33,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fallarbor",
