@@ -72,6 +72,10 @@ static const u8 sTileBitAttributes[NUM_METATILE_BEHAVIORS] =
     [MB_WESTWARD_CURRENT]                = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE,
     [MB_NORTHWARD_CURRENT]               = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE,
     [MB_SOUTHWARD_CURRENT]               = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE,
+    [MB_EAST_WATER_WARP]                 = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE,
+    [MB_WEST_WATER_WARP]                 = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE,
+    [MB_NORTH_WATER_WARP]                = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE,
+    [MB_SOUTH_WATER_WARP]                = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE,
     [MB_NON_ANIMATED_DOOR]               = TILE_FLAG_UNUSED,
     [MB_LADDER]                          = TILE_FLAG_UNUSED,
     [MB_EAST_ARROW_WARP]                 = TILE_FLAG_UNUSED,
@@ -287,7 +291,8 @@ bool8 MetatileBehavior_IsSurfableWaterOrUnderwater(u8 metatileBehavior)
 
 bool8 MetatileBehavior_IsEastArrowWarp(u8 metatileBehavior)
 {
-    if (metatileBehavior == MB_EAST_ARROW_WARP)
+    if (metatileBehavior == MB_EAST_ARROW_WARP
+     || metatileBehavior == MB_EAST_WATER_WARP)
         return TRUE;
     else
         return FALSE;
@@ -295,7 +300,8 @@ bool8 MetatileBehavior_IsEastArrowWarp(u8 metatileBehavior)
 
 bool8 MetatileBehavior_IsWestArrowWarp(u8 metatileBehavior)
 {
-    if (metatileBehavior == MB_WEST_ARROW_WARP)
+    if (metatileBehavior == MB_WEST_ARROW_WARP
+     || metatileBehavior == MB_WEST_WATER_WARP)
         return TRUE;
     else
         return FALSE;
@@ -304,6 +310,7 @@ bool8 MetatileBehavior_IsWestArrowWarp(u8 metatileBehavior)
 bool8 MetatileBehavior_IsNorthArrowWarp(u8 metatileBehavior)
 {
     if (metatileBehavior == MB_NORTH_ARROW_WARP
+     || metatileBehavior == MB_NORTH_WATER_WARP
      || metatileBehavior == MB_STAIRS_OUTSIDE_ABANDONED_SHIP)
         return TRUE;
     else
@@ -313,6 +320,7 @@ bool8 MetatileBehavior_IsNorthArrowWarp(u8 metatileBehavior)
 bool8 MetatileBehavior_IsSouthArrowWarp(u8 metatileBehavior)
 {
     if (metatileBehavior == MB_SOUTH_ARROW_WARP
+     || metatileBehavior == MB_SOUTH_WATER_WARP
      || metatileBehavior == MB_WATER_SOUTH_ARROW_WARP
      || metatileBehavior == MB_SHOAL_CAVE_ENTRANCE)
         return TRUE;
