@@ -113,7 +113,8 @@
     "Graveyard2",
     "Inbetween3pathandcliffs",
     "MountainAscent",
-    "Above3cave"
+    "Above3cave",
+    "MountSeaCave"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -121,7 +122,10 @@
     "LittlerootTown_MaysHouse_1F",
     "LittlerootTown_MaysHouse_2F",
     "LittlerootTown_ProfessorBirchsLab",
-    "MCHouse"
+    "MCHouse",
+    "FoodStorage",
+    "Town1OldLadyHouse",
+    "Town1MiscHouse"
   ],
   "gMapGroup_IndoorOldale": [
     "OldaleTown_House1",
@@ -129,7 +133,8 @@
     "OldaleTown_PokemonCenter_1F",
     "OldaleTown_PokemonCenter_2F",
     "OldaleTown_Mart",
-    "BugMuseum"
+    "BugMuseum",
+    "GardenersHouse"
   ],
   "gMapGroup_IndoorDewford": [
     "DewfordTown_House1",
@@ -606,7 +611,8 @@
     "NavelRock_Down10",
     "NavelRock_Down11",
     "NavelRock_Bottom",
-    "TrainerHill_Elevator"
+    "TrainerHill_Elevator",
+    "MushroomCave"
   ],
   "gMapGroup_IndoorRoute104Prototype": [
     "Route104_Prototype",

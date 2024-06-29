@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_MOUNTAIN_ASCENT",
-      "offset": 1,
+      "offset": 0,
       "direction": "up"
     },
     {
@@ -25,13 +25,18 @@
     },
     {
       "map": "MAP_ABOVE3CAVE",
-      "offset": 59,
+      "offset": 60,
       "direction": "down"
     },
     {
       "map": "MAP_RIGHTOF_TUNNEL",
       "offset": -27,
       "direction": "right"
+    },
+    {
+      "map": "MAP_MOUNT_SEA_CAVE",
+      "offset": -17,
+      "direction": "left"
     }
   ],
   "object_events": [
@@ -58,8 +63,8 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 13,
-      "y": 8,
+      "x": 9,
+      "y": 13,
       "elevation": 0,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"

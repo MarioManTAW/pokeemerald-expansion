@@ -25,7 +25,7 @@
     },
     {
       "map": "MAP_MOUNT_TUNNEL_ENTRANCE",
-      "offset": -59,
+      "offset": -60,
       "direction": "up"
     },
     {
@@ -44,6 +44,21 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 25,
+      "y": 11,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 28,
+      "y": 6,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_TEMP_1"
+    }
   ]
 }

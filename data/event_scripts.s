@@ -1118,3 +1118,15 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/BugMuseum/scripts.inc"
 
 	.include "data/maps/Above3cave/scripts.inc"
+
+	.include "data/maps/FoodStorage/scripts.inc"
+
+	.include "data/maps/Town1OldLadyHouse/scripts.inc"
+
+	.include "data/maps/Town1MiscHouse/scripts.inc"
+
+	.include "data/maps/MushroomCave/scripts.inc"
+
+	.include "data/maps/MountSeaCave/scripts.inc"
+
+	.include "data/maps/GardenersHouse/scripts.inc"

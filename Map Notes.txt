@@ -15,21 +15,26 @@ Add white glass display case from facility tileset to generic building tileset
 
 Assets to be altered
 
-Make ledge tile with dark grass and ... texture.
+Make ledge tile with dark grass and mountain texture.
 
 Change some of mauville tileset flowers to be dark grass
 
-Make dark grass assets of secret base tree, normal grass, small thin trees, and normal trees
+Make dark grass assets of secret base tree(both vine and lower non vine variants [normal has no background on top two tiles so its fine]), grass ledges, small thin trees, and normal trees
 
 Should add wear and tear to houses eventually
 
 Buildings in Town 3 should have smeargle grafiti
+
+See if rotating the stairs makes them convincing as sideways stairs.
+
+See if rotating waterfalls to the right works.
 
 Assets to be made
 
 Pirate ship (Inside tiles as well)
 Berry Trees
 Sideways stairs
+Background for "PC"
 
 General
 
@@ -39,13 +44,11 @@ Figure out how to do scripted events (for example when the aqua grunts all march
 
 See if day night cycle is possible visually
 
-See if random weather is possible and if I need to copy maps for it
 
 See if possible for trainers to drop berries instead of money
 
-Ask me about "Legendaries"
 
-Ask me about nuzlocke mode features.
+see if different modes (story and nuzlocke) are doable.
   
 
 

@@ -93,14 +93,14 @@
       "y": 30,
       "elevation": 0,
       "dest_map": "MAP_TOWN1",
-      "dest_warp_id": "5"
+      "dest_warp_id": "4"
     },
     {
       "x": 23,
       "y": 30,
       "elevation": 0,
       "dest_map": "MAP_TOWN1",
-      "dest_warp_id": "8"
+      "dest_warp_id": "6"
     },
     {
       "x": 12,

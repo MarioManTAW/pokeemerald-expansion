@@ -4614,7 +4614,7 @@
     {
       "id": "LAYOUT_MOUNTAIN_ASCENT",
       "name": "MountainAscent_Layout",
-      "width": 58,
+      "width": 60,
       "height": 50,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fallarbor",
@@ -4640,6 +4640,66 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Above3cave/border.bin",
       "blockdata_filepath": "data/layouts/Above3cave/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOOD_STORAGE",
+      "name": "FoodStorage_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/FoodStorage/border.bin",
+      "blockdata_filepath": "data/layouts/FoodStorage/map.bin"
+    },
+    {
+      "id": "LAYOUT_TOWN1OLD_LADY_HOUSE",
+      "name": "Town1OldLadyHouse_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Town1OldLadyHouse/border.bin",
+      "blockdata_filepath": "data/layouts/Town1OldLadyHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_TOWN1MISC_HOUSE",
+      "name": "Town1MiscHouse_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Town1MiscHouse/border.bin",
+      "blockdata_filepath": "data/layouts/Town1MiscHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_MUSHROOM_CAVE",
+      "name": "MushroomCave_Layout",
+      "width": 25,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MushroomCave/border.bin",
+      "blockdata_filepath": "data/layouts/MushroomCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_SEA_CAVE",
+      "name": "MountSeaCave_Layout",
+      "width": 30,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/MountSeaCave/border.bin",
+      "blockdata_filepath": "data/layouts/MountSeaCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_GARDENERS_HOUSE",
+      "name": "GardenersHouse_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/GardenersHouse/border.bin",
+      "blockdata_filepath": "data/layouts/GardenersHouse/map.bin"
     }
   ]
 }
