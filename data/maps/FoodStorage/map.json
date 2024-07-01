@@ -59,15 +59,15 @@
       "x": 6,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_FOOD_STORAGE",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_TOWN1",
+      "dest_warp_id": "11"
     },
     {
       "x": 7,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_FOOD_STORAGE",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_TOWN1",
+      "dest_warp_id": "11"
     }
   ],
   "coord_events": [

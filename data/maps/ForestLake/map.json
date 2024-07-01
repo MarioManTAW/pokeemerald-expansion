@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_NORMAL_FOREST1",
-      "offset": 56,
+      "offset": 63,
       "direction": "down"
     },
     {
       "map": "MAP_FOREST_HEART",
-      "offset": 31,
+      "offset": 0,
       "direction": "up"
     }
   ],
@@ -29,71 +29,71 @@
   ],
   "warp_events": [
     {
-      "x": 0,
+      "x": 7,
       "y": 39,
       "elevation": 0,
       "dest_map": "MAP_OVERLOOK_CLIFF3",
       "dest_warp_id": "0"
     },
     {
-      "x": 0,
+      "x": 7,
       "y": 40,
       "elevation": 0,
       "dest_map": "MAP_OVERLOOK_CLIFF3",
       "dest_warp_id": "1"
     },
     {
-      "x": 0,
+      "x": 7,
       "y": 4,
       "elevation": 0,
       "dest_map": "MAP_TOWN3PATH",
       "dest_warp_id": "0"
     },
     {
-      "x": 0,
+      "x": 7,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_TOWN3PATH",
       "dest_warp_id": "1"
     },
     {
-      "x": 0,
+      "x": 7,
       "y": 23,
       "elevation": 0,
       "dest_map": "MAP_INBETWEEN3PATHANDCLIFFS",
       "dest_warp_id": "0"
     },
     {
-      "x": 96,
+      "x": 103,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_AUBURN_THICKET",
       "dest_warp_id": "0"
     },
     {
-      "x": 96,
+      "x": 103,
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_AUBURN_THICKET",
       "dest_warp_id": "1"
     },
     {
-      "x": 59,
+      "x": 66,
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_FOREST_LAKE",
       "dest_warp_id": "0"
     },
     {
-      "x": 0,
+      "x": 7,
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_TOWN3PATH",
       "dest_warp_id": "3"
     },
     {
-      "x": 21,
-      "y": 49,
+      "x": 28,
+      "y": 51,
       "elevation": 0,
       "dest_map": "MAP_FOREST_LAKE",
       "dest_warp_id": "0"
@@ -105,7 +105,7 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 98,
+      "x": 105,
       "y": 35,
       "elevation": 0,
       "item": "ITEM_NONE",
@@ -113,7 +113,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 57,
+      "x": 64,
       "y": 15,
       "elevation": 0,
       "item": "ITEM_NONE",
@@ -121,7 +121,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 81,
+      "x": 88,
       "y": 25,
       "elevation": 0,
       "item": "ITEM_NONE",
@@ -129,8 +129,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 35,
-      "y": 7,
+      "x": 43,
+      "y": 4,
       "elevation": 0,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"
