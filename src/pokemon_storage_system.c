@@ -4480,7 +4480,7 @@ static void InitBoxMonSprites(u8 boxId)
             if (species != SPECIES_NONE)
             {
                 personality = GetBoxMonDataAt(boxId, boxPosition, MON_DATA_PERSONALITY);
-                sStorage->boxMonsSprites[count] = CreateMonIconSprite(species, personality, 8 * (3 * j) + 100, 8 * (3 * i) + 44, 2, 19 - j);
+                sStorage->boxMonsSprites[count] = CreateMonIconSprite(species, personality, 8 * (3 * j + 3) + 100, 8 * (3 * i + 3) + 44, 2, 19 - j);
             }
             else
             {
@@ -4508,8 +4508,8 @@ static void CreateBoxMonIconAtPos(u8 boxPosition)
 
     if (species != SPECIES_NONE)
     {
-        s16 x = 8 * (3 * (boxPosition % IN_BOX_COLUMNS)) + 100;
-        s16 y = 8 * (3 * (boxPosition / IN_BOX_COLUMNS)) + 44;
+        s16 x = 8 * (3 * (boxPosition % IN_BOX_COLUMNS + 1)) + 100;
+        s16 y = 8 * (3 * (boxPosition / IN_BOX_COLUMNS + 1)) + 44;
         u32 personality = GetCurrentBoxMonData(boxPosition, MON_DATA_PERSONALITY);
 
         sStorage->boxMonsSprites[boxPosition] = CreateMonIconSprite(species, personality, x, y, 2, 19 - (boxPosition % IN_BOX_COLUMNS));
@@ -5689,7 +5689,7 @@ static s16 GetBoxTitleBaseX(const u8 *string)
 
 static void CreateBoxScrollArrows(void)
 {
-    u16 i;
+    /*u16 i;
 
     LoadSpriteSheet(&sSpriteSheet_Arrow);
     for (i = 0; i < 2; i++)
@@ -5704,7 +5704,7 @@ static void CreateBoxScrollArrows(void)
         }
     }
     if (IsCursorOnBoxTitle())
-        AnimateBoxScrollArrows(TRUE);
+        AnimateBoxScrollArrows(TRUE);*/
 }
 
 // Slide box scroll arrows horizontally for box change
@@ -5875,8 +5875,8 @@ static void GetCursorCoordsByPos(u8 cursorArea, u8 cursorPosition, u16 *x, u16 *
     switch (cursorArea)
     {
     case CURSOR_AREA_IN_BOX:
-        *x = (cursorPosition % IN_BOX_COLUMNS) * 24 + 100;
-        *y = (cursorPosition / IN_BOX_COLUMNS) * 24 +  32;
+        *x = (cursorPosition % IN_BOX_COLUMNS + 1) * 24 + 100;
+        *y = (cursorPosition / IN_BOX_COLUMNS + 1) * 24 +  32;
         break;
     case CURSOR_AREA_IN_PARTY:
         if (cursorPosition == 0)
@@ -7109,8 +7109,9 @@ static u8 InBoxInput_Normal(void)
             }
             else
             {
-                cursorArea = CURSOR_AREA_BOX_TITLE;
-                cursorPosition = 0;
+                cursorArea = CURSOR_AREA_BUTTONS;
+                cursorPosition /= 2;
+                sStorage->cursorFlipTimer = 1;
             }
             break;
         }
@@ -7122,7 +7123,7 @@ static u8 InBoxInput_Normal(void)
             {
                 cursorArea = CURSOR_AREA_BUTTONS;
                 cursorPosition -= IN_BOX_COUNT;
-                cursorPosition /= 3;
+                cursorPosition /= 2;
                 sStorage->cursorVerticalWrap = 1;
                 sStorage->cursorFlipTimer = 1;
             }
@@ -7159,7 +7160,7 @@ static u8 InBoxInput_Normal(void)
         else if (JOY_NEW(START_BUTTON))
         {
             retVal = INPUT_MOVE_CURSOR;
-            cursorArea = CURSOR_AREA_BOX_TITLE;
+            //cursorArea = CURSOR_AREA_BUTTONS;
             cursorPosition = 0;
             break;
         }
@@ -7596,7 +7597,7 @@ static u8 HandleInput_OnButtons(void)
             cursorArea = CURSOR_AREA_IN_BOX;
             sStorage->cursorVerticalWrap = -1;
             if (sCursorPosition == 0)
-                cursorPosition = IN_BOX_COUNT - 1 - 5;
+                cursorPosition = IN_BOX_COUNT - 1 - 3;
             else
                 cursorPosition = IN_BOX_COUNT - 1;
             sStorage->cursorFlipTimer = 1;
@@ -7606,8 +7607,11 @@ static u8 HandleInput_OnButtons(void)
         if (JOY_REPEAT(DPAD_DOWN | START_BUTTON))
         {
             retVal = INPUT_MOVE_CURSOR;
-            cursorArea = CURSOR_AREA_BOX_TITLE;
-            cursorPosition = 0;
+            cursorArea = CURSOR_AREA_IN_BOX;
+            if (sCursorPosition == 0)
+                cursorPosition = 0;
+            else
+                cursorPosition = 3;
             sStorage->cursorFlipTimer = 1;
             break;
         }
@@ -7636,7 +7640,7 @@ static u8 HandleInput_OnButtons(void)
 
         if (JOY_NEW(SELECT_BUTTON))
         {
-            ToggleCursorAutoAction();
+            //ToggleCursorAutoAction();
             return INPUT_NONE;
         }
 
