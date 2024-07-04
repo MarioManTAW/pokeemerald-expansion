@@ -71,14 +71,14 @@
       "x": 39,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_NORMAL_FOREST1",
+      "dest_map": "MAP_SECRET_BASE_TREE1",
       "dest_warp_id": "0"
     },
     {
       "x": 40,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_NORMAL_FOREST1",
+      "dest_map": "MAP_SECRET_BASE_TREE1",
       "dest_warp_id": "0"
     },
     {
